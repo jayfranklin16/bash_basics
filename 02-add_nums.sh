@@ -23,3 +23,12 @@ read height
 pixels=$(( width * height ))
 
 echo "The total number of pixels is $pixels"
+echo "What is the width?"
+read width
+
+echo "What is the height?"
+read height
+
+pixels=$((width * height))
+
+echo "Your image contains $pixels pixels."
