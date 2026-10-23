@@ -22,4 +22,4 @@ read height
 
 pixels=$(( width * height ))
 
-echo "The total number of pixels is $pixels"
+echo "The screen has $pixels pixels in total."
